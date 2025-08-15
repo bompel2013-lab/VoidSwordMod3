@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)" # Forge 1.20.1
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="voidsword"
+version="${file.jarVersion}"
+displayName="Void Sword Mod"
+displayURL=""
+logoFile=""
+credits=""
+authors="You"
+description='''Adds a Void Sword that can erase entire chunks when Shift + Right-Clicked.'''
+
+[[dependencies.voidsword]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.voidsword]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
